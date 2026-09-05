@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima Mundial</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="formulario">
+    <h1>Clima en Ciudades</h1>
+    <p>Selecciona una fecha y ciudad</p>
+
+    <label for="ciudad">Ciudad:</label>
+    <select id="ciudad">
+      <option value="202438">Kabul, Afganistán</option>
+      <option value="117">Port Moresby, Papúa Nueva Guinea</option>
+      <option value="117487">Brazzaville, República del Congo</option>
+    </select>
+
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha">
+
+    <button id="mostrarClima">Mostrar clima</button>
+
+    <div id="climaInfo"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

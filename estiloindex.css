@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  position: relative;
+  width: 350px;
+}
+
+.personaje {
+  width: 150%;
+  display: block;
+}
+
+.cartel {
+  position: absolute;
+  top: 70%; 
+  left: 90%;
+  transform: translate(-50%, -50%);
+  width: 65%; 
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cartel h1 {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.cartel p {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+input, button {
+  width: 100%;
+  padding: 6px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: 1px solid #775f9b;
+  font-size: 0.9em;
+}
+
+button {
+  background-color: #a6a062;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #3f2525;
+}
